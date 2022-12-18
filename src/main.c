@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include <my_lib/hello.h>
 
 int main(void) {
-    printf("hello!\n");
-
+    mylib_print_hello();
     return 0;
 }
